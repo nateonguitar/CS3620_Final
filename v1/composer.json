@@ -1,0 +1,16 @@
+{
+    "name": "nateonguitar/tabsite",
+    "description": "This is a guitar tablature site with an API",
+    "type": "project",
+    "license": "Don't use my code",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "CS3620_Final\\":"src/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^4.0",
+        "nikic/fast-route": "^1.0"
+    }
+}

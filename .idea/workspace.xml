@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c68df4af-d25f-4780-a5db-11c603d18e6d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CS3620_Final.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Controllers/ComposerController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Controllers/SheetController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Controllers/TokensController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Controllers/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Http/Methods.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Http/StatusCodes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Models/Composer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Models/Sheet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Models/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Models/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Utilities/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/BeforeValidException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/ExpiredException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/JWT.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/SignatureInvalidException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/.hhconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/FastRoute.hhi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/BadRouteException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/CharCountBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/GroupCountBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/GroupPosBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/MarkBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/CharCountBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/GroupCountBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/GroupPosBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/MarkBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/RegexBasedAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteCollector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteParser/Std.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/CharCountBasedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/DispatcherTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/GroupCountBasedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/GroupPosBasedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/MarkBasedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/HackTypechecker/HackTypecheckerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/HackTypechecker/fixtures/all_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/HackTypechecker/fixtures/empty_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/HackTypechecker/fixtures/no_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/RouteParser/StdTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/bootstrap.php" />
+    </list>
+    <ignored path="tabsite.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="tabsite" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+                <element signature="e#82#104#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Token.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Models/Token.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="e#121#159#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokensController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Controllers/TokensController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+              <folding>
+                <element signature="e#130#160#0#PHP" expanded="true" />
+                <marker date="1481040319805" expanded="true" signature="602:627" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481040319805" expanded="true" signature="602:658" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481040319805" expanded="true" signature="602:1419" ph="SELECT * FRO... TabSiteUser" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseConnection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusCodes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Http/StatusCodes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="374" column="25" selection-start-line="374" selection-start-column="25" selection-end-line="374" selection-end-column="25" />
+              <folding>
+                <element signature="e#128#136#0#PHP" expanded="true" />
+                <marker date="1481217742240" expanded="true" signature="940:994" ph="DELETE FROM " />
+                <marker date="1481217742240" expanded="true" signature="3358:3414" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481217742240" expanded="true" signature="5484:5772" ph="UPDATE TabSi... " />
+                <marker date="1481217742240" expanded="true" signature="8069:8125" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481217742240" expanded="true" signature="8069:11562" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481217742240" expanded="true" signature="10044:10422" ph="INSERT INTO TabSiteUser... " />
+                <marker date="1481217742240" expanded="true" signature="11999:12024" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481217742240" expanded="true" signature="13822:13870" ph="SELECT * FRO... TabSiteUser" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComposerController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Controllers/ComposerController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <marker date="1481218102914" expanded="true" signature="956:1018" ph="DELETE FROM " />
+                <marker date="1481218102914" expanded="true" signature="2930:2986" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481218102914" expanded="true" signature="3904:3998" ph="UPDATE TabSi... " />
+                <marker date="1481218102914" expanded="true" signature="5451:5503" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481218102914" expanded="true" signature="5451:5507" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481218102914" expanded="true" signature="6257:6382" ph="INSERT INTO TabSiteUser... " />
+                <marker date="1481218102914" expanded="true" signature="7482:7503" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481218102914" expanded="true" signature="7482:7511" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481218102914" expanded="true" signature="9209:9259" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481218102914" expanded="true" signature="9209:9261" ph="SELECT * FRO... TabSiteComposer" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sheet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Models/Sheet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SheetController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/v1/src/Controllers/SheetController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+              <folding>
+                <element signature="e#128#136#0#PHP" expanded="true" />
+                <marker date="1481254875032" expanded="true" signature="1036:1092" ph="DELETE FROM " />
+                <marker date="1481254875032" expanded="true" signature="2977:3027" ph="SELECT * FRO... TabSiteSheet" />
+                <marker date="1481254875032" expanded="true" signature="3909:3994" ph="UPDATE TabSi... " />
+                <marker date="1481254875032" expanded="true" signature="5678:5797" ph="INSERT INTO TabSiteSheet... " />
+                <marker date="1481254875032" expanded="true" signature="6864:6890" ph="SELECT * FRO... TabSiteSheet" />
+                <marker date="1481254875032" expanded="true" signature="8507:8553" ph="SELECT * FRO... TabSiteSheet" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/v1/src/Http/StatusCodes.php" />
+        <option value="$PROJECT_DIR$/v1/src/Http/Methods.php" />
+        <option value="$PROJECT_DIR$/v1/composer.json" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Route.php" />
+        <option value="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteCollector.php" />
+        <option value="$PROJECT_DIR$/v1/config.php" />
+        <option value="$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php" />
+        <option value="$PROJECT_DIR$/v1/src/Controllers/TokensController.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/User.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/Token.php" />
+        <option value="$PROJECT_DIR$/v1/src/Utilities/functions.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/Composer.php" />
+        <option value="$PROJECT_DIR$/v1/src/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/v1/api.php" />
+        <option value="$PROJECT_DIR$/v1/api.php" />
+        <option value="$PROJECT_DIR$/v1/src/Controllers/ComposerController.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/Sheet.php" />
+        <option value="$PROJECT_DIR$/v1/src/Controllers/SheetController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Remote PHP 7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utilities" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS3620_Final" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theds\PhpstormProjects\CS3620_Final\v1\src\Controllers" />
+      <recent name="C:\Users\theds\PhpstormProjects\CS3620_Final\v1\src\Models" />
+      <recent name="C:\Users\theds\PhpstormProjects\CS_3620_Final\v1\src\Models" />
+      <recent name="C:\Users\theds\PhpstormProjects\CS_3620_Final" />
+      <recent name="C:\Users\theds\PhpstormProjects\CS_3620_Final\v1\src\Controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c68df4af-d25f-4780-a5db-11c603d18e6d" name="Default" comment="" />
+      <created>1480461252247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1480461252247</updated>
+      <workItem from="1480461253679" duration="596000" />
+      <workItem from="1480566511860" duration="1187000" />
+      <workItem from="1480618180007" duration="1189000" />
+      <workItem from="1480632980503" duration="6778000" />
+      <workItem from="1480655877272" duration="76000" />
+      <workItem from="1480655968282" duration="2232000" />
+      <workItem from="1480995629632" duration="13279000" />
+      <workItem from="1481170367491" duration="21802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47139000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16384777" sideWeight="0.51666665" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10458911" sideWeight="0.48423126" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16384777" sideWeight="0.48333332" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/v1/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+            <element signature="e#82#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/Token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#121#159#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Http/Methods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Http/StatusCodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+            <element signature="e#82#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/Token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#121#159#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/composer/autoload_files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/composer/autoload_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Http/Methods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/JWT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/BeforeValidException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/SignatureInvalidException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/ExpiredException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/firebase/php-jwt/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteCollector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/BadRouteException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/GroupCountBased.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/GroupPosBased.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/MarkBased.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Http/StatusCodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/Token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="e#121#159#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/TokensController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+          <folding>
+            <element signature="e#130#160#0#PHP" expanded="true" />
+            <marker date="1481040319805" expanded="true" signature="602:627" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481040319805" expanded="true" signature="602:658" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481040319805" expanded="true" signature="602:1419" ph="SELECT * FRO... TabSiteUser" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/Composer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+            <element signature="e#82#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="374" column="25" selection-start-line="374" selection-start-column="25" selection-end-line="374" selection-end-column="25" />
+          <folding>
+            <element signature="e#128#136#0#PHP" expanded="true" />
+            <marker date="1481217742240" expanded="true" signature="940:994" ph="DELETE FROM " />
+            <marker date="1481217742240" expanded="true" signature="3358:3414" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481217742240" expanded="true" signature="5484:5772" ph="UPDATE TabSi... " />
+            <marker date="1481217742240" expanded="true" signature="8069:8125" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481217742240" expanded="true" signature="8069:11562" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481217742240" expanded="true" signature="10044:10422" ph="INSERT INTO TabSiteUser... " />
+            <marker date="1481217742240" expanded="true" signature="11999:12024" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481217742240" expanded="true" signature="13822:13870" ph="SELECT * FRO... TabSiteUser" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/ComposerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <marker date="1481218102914" expanded="true" signature="956:1018" ph="DELETE FROM " />
+            <marker date="1481218102914" expanded="true" signature="2930:2986" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481218102914" expanded="true" signature="3904:3998" ph="UPDATE TabSi... " />
+            <marker date="1481218102914" expanded="true" signature="5451:5503" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481218102914" expanded="true" signature="5451:5507" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481218102914" expanded="true" signature="6257:6382" ph="INSERT INTO TabSiteUser... " />
+            <marker date="1481218102914" expanded="true" signature="7482:7503" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481218102914" expanded="true" signature="7482:7511" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481218102914" expanded="true" signature="9209:9259" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481218102914" expanded="true" signature="9209:9261" ph="SELECT * FRO... TabSiteComposer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/Sheet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/SheetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+          <folding>
+            <element signature="e#128#136#0#PHP" expanded="true" />
+            <marker date="1481254875032" expanded="true" signature="1036:1092" ph="DELETE FROM " />
+            <marker date="1481254875032" expanded="true" signature="2977:3027" ph="SELECT * FRO... TabSiteSheet" />
+            <marker date="1481254875032" expanded="true" signature="3909:3994" ph="UPDATE TabSi... " />
+            <marker date="1481254875032" expanded="true" signature="5678:5797" ph="INSERT INTO TabSiteSheet... " />
+            <marker date="1481254875032" expanded="true" signature="6864:6890" ph="SELECT * FRO... TabSiteSheet" />
+            <marker date="1481254875032" expanded="true" signature="8507:8553" ph="SELECT * FRO... TabSiteSheet" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
