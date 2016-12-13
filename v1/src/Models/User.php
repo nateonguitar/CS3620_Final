@@ -24,12 +24,12 @@ class User implements \JsonSerializable
         return
             array(
                 'user_id' => $this->UserID,
-                'user_first_name' => $this->UserFirstName,
-                'user_last_name' => $this->UserLastName,
-                'user_email' => $this->UserEmail,
-                'user_username' => $this->UserUsername,
-                'user_password' => $this->UserPassword,
-                'user_privilege level' => $this->UserPrivilegeLevel
+                'first_name' => $this->UserFirstName,
+                'last_name' => $this->UserLastName,
+                'email' => $this->UserEmail,
+                'username' => $this->UserUsername,
+                'password' => $this->UserPassword,
+                'privilege_level' => $this->UserPrivilegeLevel
             );
 
     }
@@ -43,5 +43,13 @@ class User implements \JsonSerializable
         $this->UserUsername = $UserUsername;
         $this->UserPassword = $UserPassword;
         $this->UserPrivilegeLevel = $UserPrivilegeLevel;
+    }
+
+    public function getID():int{
+        return $this->UserID;
+    }
+
+    public function getUsername():string{
+        return $this->UserUsername;
     }
 }

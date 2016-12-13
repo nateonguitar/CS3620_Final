@@ -16,29 +16,35 @@ class Sheet implements \JsonSerializable
     private $SheetContents;
     private $SheetUploadDate;
     private $SheetAccepted;
+    private $SheetUploaderName;
     private $UserID;
+    private $Composers = array();
 
     function jsonSerialize()
     {
         return
             array(
                 'sheet_id' => $this->SheetID,
-                'sheet_title' => $this->SheetTitle,
-                'sheet_contents' => $this->SheetContents,
-                'sheet_upload_date' => $this->SheetUploadDate,
-                'sheet_accepted' => $this->SheetAccepted,
-                'user_id' => $this->UserID
+                'title' => $this->SheetTitle,
+                'contents' => $this->SheetContents,
+                'upload_date' => $this->SheetUploadDate,
+                'accepted' => $this->SheetAccepted,
+                'uploader_name' => $this->SheetUploaderName,
+                'user_id' => $this->UserID,
+                'composers' => $this->Composers
             );
 
     }
 
-    function __construct($SheetID, $SheetTitle, $SheetContents, $SheetUploadDate, $SheetAccepted, $UserID)
+    function __construct($SheetID, $SheetTitle, $SheetContents, $SheetUploadDate, $SheetAccepted, $SheetUploaderName, $UserID, $Composers = array())
     {
-        $this->SheetID = $SheetID;
-        $this->SheetTitle = $SheetTitle;
-        $this->SheetContents = $SheetContents;
-        $this->SheetUploadDate = $SheetUploadDate;
-        $this->SheetAccepted = $SheetAccepted;
-        $this->UserID = $UserID;
+        $this->SheetID              = $SheetID;
+        $this->SheetTitle           = $SheetTitle;
+        $this->SheetContents        = $SheetContents;
+        $this->SheetUploadDate      = $SheetUploadDate;
+        $this->SheetAccepted        = $SheetAccepted;
+        $this->SheetUploaderName    = $SheetUploaderName;
+        $this->UserID               = $UserID;
+        $this->Composers            = $Composers;
     }
 }

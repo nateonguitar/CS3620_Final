@@ -16,7 +16,13 @@ use CS3620_Final\Utilities\DatabaseConnection;
 
 class ComposerController
 {
-    public static function deleteComposer($data){
+    public static function deleteComposer(){
+        // can call this function via DELETE http method with a body like:
+        //
+        // {
+        //      "id":"9"
+        // }
+
         $data = (object)json_decode(file_get_contents('php://input'));
         $token = Token::getRoleFromToken();
         $db = DatabaseConnection::getInstance();
@@ -35,186 +41,212 @@ class ComposerController
 
         $id = $data->id;
 
-        $query_delete_composer = '
+        $queryDeleteComposer = '
             DELETE FROM TabSiteComposer
             WHERE ComposerID = :id
         ';
 
-        $stmt_delete_composer = $db->prepare($query_delete_composer);
-        $stmt_delete_composer->bindValue(':id', $id);
+        $stmtDeleteComposer = $db->prepare($queryDeleteComposer);
+        $stmtDeleteComposer->bindValue(':id', $id);
 
-        $deleteComposerWorked = $stmt_delete_composer->execute();
-
-        if($deleteComposerWorked){
-            $rowsDeleted = $stmt_delete_composer->rowCount();
-            if ($rowsDeleted == 0) {
-                http_response_code(StatusCodes::GONE);
-                echo 'No rows deleted. Please check the ID.';
-                die();
-            } else {
-                http_response_code(StatusCodes::OK);
-                $returned_array = array();
-                $returned_array['rowsDeleted'] = $rowsDeleted;
-                return $returned_array;
-            }
-        } else {
-
+        if(!$stmtDeleteComposer->execute()){
             http_response_code(StatusCodes::INTERNAL_SERVER_ERROR);
-            echo 'Hey dawg, that didn\'t work!';
             die();
         }
 
+        $rowsDeleted = $stmtDeleteComposer->rowCount();
 
+        if ($rowsDeleted == 0) {
+            http_response_code(StatusCodes::GONE);
+            echo 'No rows deleted. Please check the ID.';
+            die();
+        }
 
+        http_response_code(StatusCodes::OK);
+        return array('rowsDeleted' => $rowsDeleted);
     }
 
-    public static function editComposer($data)
+    public static function editComposer($passed_in_id = null, $passed_in_name = null)
     {
+        // this can either be called internally like:
+        // ComposerController::editComposer($id, $name)
+        // OR
+        // via PUT http method with a body like
+        // {
+        //     "id" : "3",
+        //     "name" : "Mozart"
+        // }
+
         $data = (object)json_decode(file_get_contents('php://input'));
         $token = Token::getRoleFromToken();
         $db = DatabaseConnection::getInstance();
 
         if ($token != Token::ROLE_ADMIN) {
             http_response_code(StatusCodes::UNAUTHORIZED);
-            return "You don't have permission for that, honey!";
             die();
         }
 
-        if (!ctype_digit($data->id)) {
+        // validate inputs
+        if(
+            (empty($passed_in_id)    && empty($data->id))             // no id given
+            || (empty($passed_in_name)  && empty($data->name))           // no name given
+            || (!empty($passed_in_id)   && !ctype_digit($passed_in_id))  // bad ID passed in
+            || (!empty($data->id)       && !ctype_digit($data->id))      // bad ID from json
+            || (!empty($passed_in_name) && !ctype_alpha($passed_in_name))// bad name passed in
+            || (!empty($data->name)     && !ctype_alpha($data->name))    // bad name from json
+        ){
             http_response_code(StatusCodes::BAD_REQUEST);
-            echo "Bad request";
             die();
         }
 
-        // store only lower case, it's easy to format correctly on front end
-        // first name must be only letters
-        if(empty($data->name) || !ctype_alpha($data->name)){
-            http_response_code(StatusCodes::BAD_REQUEST);
-            echo 'First name not formatted correctly';
-            die();
-        }
 
-        // see if username is already in use (if it's not already this user's username)
-        $queryCheckIfComposerExists = 'SELECT * FROM TabSiteComposer WHERE ComposerName = :name';
-        $stmtCheckIfComposerExists = $db->prepare($queryCheckIfComposerExists);
-        $stmtCheckIfComposerExists->bindValue(':name', trim(strtolower($data->name)));
-        $CheckIfComposerExistsWorked = $stmtCheckIfComposerExists->execute();
-
-        if($CheckIfComposerExistsWorked){
-            $composer = $stmtCheckIfComposerExists->fetch(PDO::FETCH_ASSOC);
-
-            if($stmtCheckIfComposerExists->rowCount() == 1 && $composer['ComposerID'] != $data->id){
-                http_response_code(StatusCodes::BAD_REQUEST);
-                echo 'That username already exist for a different user';
-                die();
-            }
+        // composers can have capitalization
+        if(!empty($data->name)){
+            $name = trim($data->name);
         }
         else{
+            $name = trim($passed_in_name);
+        }
+
+        if(!empty($data->name)){
+            $id = $data->id;
+        }
+        else{
+            $id = $passed_in_id;
+        }
+
+        // see if composer already exists
+        $queryCheckIfComposerExists = 'SELECT * FROM TabSiteComposer WHERE ComposerName = :name';
+        $stmtCheckIfComposerExists = $db->prepare($queryCheckIfComposerExists);
+        $stmtCheckIfComposerExists->bindValue(':name', $name);
+        if(!$stmtCheckIfComposerExists->execute()){
             http_response_code(StatusCodes::INTERNAL_SERVER_ERROR);
-            echo 'wha happened?';
             die();
         }
 
-        $id = $data->id;
-        $name = trim(strtolower($data->name));
+        $composer = $stmtCheckIfComposerExists->fetch(PDO::FETCH_ASSOC);
+        echo $composer['ComposerID'] . ' ' . $id;
+        echo $stmtCheckIfComposerExists->rowCount();
 
-        $query_update_composer = '
+        // if we got the name back but the returned ID does not match the passed in ID
+        if($stmtCheckIfComposerExists->rowCount() == 1 && $composer['ComposerID'] != $id){
+            http_response_code(StatusCodes::BAD_REQUEST);
+            echo 'That name already exists in the database under a different id';
+            die();
+        }
+
+        $queryUpdateComposer = '
             UPDATE TabSiteComposer
             SET ComposerName = :name
             WHERE ComposerID = :id
         ';
 
+        $stmtUpdateComposer = $db->prepare($queryUpdateComposer);
+        $stmtUpdateComposer->bindValue(':id',    $id);
+        $stmtUpdateComposer->bindValue(':name',  $name);
 
-        $statement_update_composer = $db->prepare($query_update_composer);
-        $statement_update_composer->bindValue(':id',    $id);
-        $statement_update_composer->bindValue(':name',  $name);
-
-        $update_composer_worked = $statement_update_composer->execute();
-
-        if ($update_composer_worked) {
-            http_response_code(StatusCodes::OK);
-
-            $returned_data = ComposerController::getComposerByID($id);
-            return $returned_data;
-        } else {
+        if(!$stmtUpdateComposer->execute()){
             http_response_code(StatusCodes::INTERNAL_SERVER_ERROR);
-            return 'Hey dawg, that didn\'t work!';
+            die();
         }
+
+        http_response_code(StatusCodes::OK);
+        $returned_data = ComposerController::getComposerByID($id);
+        return $returned_data;
     }
 
-    public static function createComposer($data)
+    public static function createComposer($passedInComposer = null)
     {
+
+        // you can either pass in a value like:
+        // ComposerController::createComposer('Mozart')
+        //
+        // or through POST with body:
+        // {
+        //     "name" : "Mozart"
+        // }
+
         $data = (object)json_decode(file_get_contents('php://input'));
+
         $token = Token::getRoleFromToken();
         $db = DatabaseConnection::getInstance();
 
         if ($token != Token::ROLE_ADMIN) {
             http_response_code(StatusCodes::UNAUTHORIZED);
-            return "You don't have permission for that, honey!";
             die();
         }
 
-        // store only lower case, it's easy to format correctly on front end
-        // name must be only letters
-        if(empty($data->name) || !ctype_alpha($data->name)){
+        // we will allow capitalization wherever for composers
+        // but for now, only letters and spaces
+        if(!empty($passedInComposer)){
+            if(is_array($passedInComposer)){
+                $composer = $passedInComposer['name'];
+            }
+            else{
+                $composer = $passedInComposer;
+            }
+
+        }
+        else if(!empty($data->name)){
+            $composer = $data->name;
+        }
+        else{
+            http_response_code(StatusCodes::BAD_REQUEST);
+            die();
+        }
+
+
+        if(empty($composer) || !ctype_alpha(str_replace(' ', '', $composer))){
             http_response_code(StatusCodes::BAD_REQUEST);
             echo 'Name not formatted correctly';
             die();
         }
 
+        $composer = trim($composer);
+
         // see if that composer already exists
         $queryCheckIfComposerExists = 'SELECT * FROM TabSiteComposer WHERE ComposerName = :name';
         $stmtCheckIfComposerExists = $db->prepare($queryCheckIfComposerExists);
-        $stmtCheckIfComposerExists->bindValue(':name', trim(strtolower($data->name)));
-        $CheckIfComposerExistsWorked = $stmtCheckIfComposerExists->execute();
+        $stmtCheckIfComposerExists->bindValue(':name', $composer);
 
-        if($CheckIfComposerExistsWorked){
-            if($stmtCheckIfComposerExists->rowCount() > 0){
-                http_response_code(StatusCodes::BAD_REQUEST);
-                echo 'That composer already exists';
-                die();
-            }
-        }
-        else{
+        if(!$stmtCheckIfComposerExists->execute()) {
             http_response_code(StatusCodes::INTERNAL_SERVER_ERROR);
-            echo 'wha happened?';
             die();
         }
 
-        $name = trim(strtolower($data->name));
 
-        $query_insert_composer = '
-        INSERT INTO TabSiteComposer
-        (
-            ComposerName
-        )
-        VALUES
-        (
-            :name
-        )
-    ';
-        $statement_insert_composer = $db->prepare($query_insert_composer);
-        $statement_insert_composer->bindValue(':name',      $name);
+        if($stmtCheckIfComposerExists->rowCount() == 0){
+            $queryInsertComposer = 'INSERT INTO TabSiteComposer ( ComposerName ) VALUES ( :name );';
 
-        $insert_composer_worked = $statement_insert_composer->execute();
+            $stmtInsertComposer = $db->prepare($queryInsertComposer);
+            $stmtInsertComposer->bindValue(':name', $composer);
 
-        if ($insert_composer_worked) {
+            if(!$stmtInsertComposer->execute()){
+                http_response_code(StatusCodes::INTERNAL_SERVER_ERROR);
+                die();
+            }
+
             $inserted_id = $db->lastInsertId();
-            $returned_composer = new Composer(
-                $inserted_id,
-                $name
-            );
+
             http_response_code(StatusCodes::CREATED);
-
-            return $returned_composer;
-        } else {
-            http_response_code(StatusCodes::INTERNAL_SERVER_ERROR);
-            return 'Hey dawg, that didn\'t work!';
+            return new Composer(
+                $inserted_id,
+                $composer
+            );
         }
-
+        else{
+            http_response_code(StatusCodes::OK);
+            $return_composer = $stmtCheckIfComposerExists->fetch(PDO::FETCH_ASSOC);
+            return new Composer($return_composer['ComposerID'], $return_composer['ComposerName']);
+        }
     }
 
     public static function getAllComposers(){
+        // this can be called by giving a GET request without an ID like:
+        // https://icarus.cs.weber.edu/~nb06777/CS3620_Final/v1/composer/
+        // or
+        // https://icarus.cs.weber.edu/~nb06777/CS3620_Final/v1/composer
+
         $db = DatabaseConnection::getInstance();
         $role = Token::getRoleFromToken();
 
@@ -224,85 +256,93 @@ class ComposerController
             die();
         }
 
-        $query_get_all_composers = '
+        $queryGetAllComposers = '
                     SELECT * FROM TabSiteComposer
                 ';
 
-        $stmt_get_all_comoposers = $db->prepare($query_get_all_composers);
+        $stmtGetAllComposers = $db->prepare($queryGetAllComposers);
 
-        $getAllComposersWorked = $stmt_get_all_comoposers->execute();
-
-        if($getAllComposersWorked){
-            $allComposersFormatted = array();
-            $allComposers = $stmt_get_all_comoposers->fetchAll(PDO::FETCH_ASSOC);
-            foreach($allComposers as $composer){
-                $composerToAdd = new Composer(
-                    $composer['ComposerID'],
-                    $composer['ComposerName']
-                );
-
-                array_push($allComposersFormatted, $composer);
-            }
-
-            http_response_code(StatusCodes::OK);
-            return $allComposersFormatted;
+        if(!$stmtGetAllComposers->execute()){
+            http_response_code(StatusCodes::INTERNAL_SERVER_ERROR);
+            die();
         }
+
+        $allComposersFormatted = array();
+        $allComposers = $stmtGetAllComposers->fetchAll(PDO::FETCH_ASSOC);
+        foreach($allComposers as $composer){
+            array_push($allComposersFormatted, $composer);
+        }
+
+        http_response_code(StatusCodes::OK);
+        return $allComposersFormatted;
     }
 
-    public static function getComposerByID($composerID = null){
+    public static function getComposerByID($passedInComposerID = null){
+        // you can either call the API like this:
+        // https://icarus.cs.weber.edu/~nb06777/CS3620_Final/v1/composer/3
+        // or the API can internally get a composer like:
+        // ComposerController::getComposerByID(3);
+
         $db = DatabaseConnection::getInstance();
         $role = Token::getRoleFromToken();
 
         if ($role != Token::ROLE_MODERATOR && $role != Token::ROLE_ADMIN){
             http_response_code(StatusCodes::UNAUTHORIZED);
-            echo  'You don\'t have permission for that, honey!';
             die();
         }
 
         // get the composerID
-        if (!empty($composerID) && is_array($composerID)) {
-            $composerID = $composerID['id'];
-        } else if ($composerID == null) {
+        // if at the end of the url like:
+        // https://icarus.cs.weber.edu/~nb06777/CS3620_Final/v1/composer/3
+        // this will come in as an array
+        // or you can use the internal call
+        if (!empty($passedInComposerID)) {
+            if(is_array($passedInComposerID)){
+                $composerID = $passedInComposerID['id'];
+            }
+            else{
+                $composerID = $passedInComposerID;
+            }
+
+        } else if (is_null($passedInComposerID)) {
             $data = (object)json_decode(file_get_contents('php://input'));
             if(!empty($data->id)){
                 $composerID = $data->id;
             }
         }
-
-        // make sure we have a proper integer
-        if (!ctype_digit($composerID)) {
-            http_response_code(400);
-            echo "<h1>Error: Bad Request</h1>";
+        else{
+            http_response_code(StatusCodes::BAD_REQUEST);
             die();
         }
 
 
+        // make sure we have a proper integer
+        if (!ctype_digit($composerID)) {
+            http_response_code(StatusCodes::BAD_REQUEST);
+            die();
+        }
 
         $queryGetComposer = 'SELECT * FROM TabSiteComposer WHERE ComposerID = :id';
 
         $stmtGetComposer = $db->prepare($queryGetComposer);
         $stmtGetComposer->bindValue(':id', $composerID);
-        $getComposerWorked = $stmtGetComposer->execute();
-
-
-        if ($getComposerWorked) {
-            if($stmtGetComposer->rowCount() != 1){
-                http_response_code(StatusCodes::NOT_FOUND);
-                echo 'That user does not exist';
-                die();
-            }
-
-            $returned_data = $stmtGetComposer->fetch(PDO::FETCH_ASSOC);
-            $returned_composer = new Composer(
-                $composerID,
-                $returned_data['ComposerName']
-            );
-            http_response_code(StatusCodes::OK);
-            return $returned_composer;
-        } else {
+        if(!$stmtGetComposer->execute()){
             http_response_code(StatusCodes::INTERNAL_SERVER_ERROR);
-            return 'That didn\'t work';
+            die();
         }
 
+        if($stmtGetComposer->rowCount() != 1){
+            http_response_code(StatusCodes::NOT_FOUND);
+            echo 'That composer does not exist';
+            die();
+        }
+
+        $returned_data = $stmtGetComposer->fetch(PDO::FETCH_ASSOC);
+        $returned_composer = new Composer(
+            $composerID,
+            $returned_data['ComposerName']
+        );
+        http_response_code(StatusCodes::OK);
+        return $returned_composer;
     }
 }

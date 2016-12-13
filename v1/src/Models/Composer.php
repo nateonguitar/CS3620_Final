@@ -29,4 +29,8 @@ class Composer implements \JsonSerializable
         $this->ComposerID = $ComposerID;
         $this->ComposerName = $ComposerName;
     }
+
+    function getComposerID(){
+        return $this->ComposerID;
+    }
 }
