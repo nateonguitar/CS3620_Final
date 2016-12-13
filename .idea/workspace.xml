@@ -1,88 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c68df4af-d25f-4780-a5db-11c603d18e6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CS3620_Final.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Controllers/ComposerController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Controllers/SheetController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Controllers/TokensController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Controllers/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Http/Methods.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Http/StatusCodes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Models/Composer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Models/Sheet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Models/Token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Models/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/src/Utilities/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_files.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/autoload_static.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/composer/installed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/package.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/BeforeValidException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/ExpiredException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/JWT.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/firebase/php-jwt/src/SignatureInvalidException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/.hhconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/FastRoute.hhi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/BadRouteException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/CharCountBased.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/GroupCountBased.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/GroupPosBased.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/MarkBased.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/CharCountBased.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/GroupCountBased.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/GroupPosBased.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/MarkBased.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Dispatcher/RegexBasedAbstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteCollector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteParser/Std.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/CharCountBasedTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/DispatcherTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/GroupCountBasedTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/GroupPosBasedTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/Dispatcher/MarkBasedTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/HackTypechecker/HackTypecheckerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/HackTypechecker/fixtures/all_options.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/HackTypechecker/fixtures/empty_options.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/HackTypechecker/fixtures/no_options.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/RouteParser/StdTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/vendor/nikic/fast-route/test/bootstrap.php" />
+    <list default="true" id="c68df4af-d25f-4780-a5db-11c603d18e6d" name="Default" comment="Initial commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tabsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,37 +24,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v1/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
-              <folding>
-                <element signature="e#6#80#0#PHP" expanded="true" />
-                <element signature="e#82#104#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Token.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v1/src/Models/Token.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="323">
               <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding>
-                <element signature="e#121#159#0#PHP" expanded="true" />
+                <element signature="e#838#1890#0#PHP" expanded="false" />
+                <element signature="e#1896#2641#0#PHP" expanded="false" />
+                <element signature="e#2647#2916#0#PHP" expanded="false" />
+                <element signature="e#2922#3199#0#PHP" expanded="false" />
+                <element signature="e#3205#3753#0#PHP" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v1/src/Models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -141,10 +43,9 @@
       <file leaf-file-name="TokensController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v1/src/Controllers/TokensController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="1003">
               <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
               <folding>
-                <element signature="e#130#160#0#PHP" expanded="true" />
                 <marker date="1481040319805" expanded="true" signature="602:627" ph="SELECT * FRO... TabSiteUser" />
                 <marker date="1481040319805" expanded="true" signature="602:658" ph="SELECT * FRO... TabSiteUser" />
                 <marker date="1481040319805" expanded="true" signature="602:1419" ph="SELECT * FRO... TabSiteUser" />
@@ -153,21 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseConnection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/v1/src/Utilities/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatusCodes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v1/src/Http/StatusCodes.php">
+      <file leaf-file-name="Composer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Models/Composer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="272">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -176,19 +77,114 @@
       <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v1/src/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="374" column="25" selection-start-line="374" selection-start-column="25" selection-end-line="374" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
               <folding>
                 <element signature="e#128#136#0#PHP" expanded="true" />
-                <marker date="1481217742240" expanded="true" signature="940:994" ph="DELETE FROM " />
-                <marker date="1481217742240" expanded="true" signature="3358:3414" ph="SELECT * FRO... TabSiteUser" />
-                <marker date="1481217742240" expanded="true" signature="5484:5772" ph="UPDATE TabSi... " />
-                <marker date="1481217742240" expanded="true" signature="8069:8125" ph="SELECT * FRO... TabSiteUser" />
-                <marker date="1481217742240" expanded="true" signature="8069:11562" ph="SELECT * FRO... TabSiteUser" />
-                <marker date="1481217742240" expanded="true" signature="10044:10422" ph="INSERT INTO TabSiteUser... " />
-                <marker date="1481217742240" expanded="true" signature="11999:12024" ph="SELECT * FRO... TabSiteUser" />
-                <marker date="1481217742240" expanded="true" signature="13822:13870" ph="SELECT * FRO... TabSiteUser" />
+                <element signature="e#308#1803#0#PHP" expanded="false" />
+                <element signature="e#1809#6806#0#PHP" expanded="false" />
+                <element signature="e#6812#11801#0#PHP" expanded="false" />
+                <element signature="e#11807#12765#0#PHP" expanded="false" />
+                <element signature="e#12771#14869#0#PHP" expanded="false" />
+                <marker date="1481605757520" expanded="true" signature="993:1047" ph="DELETE FROM " />
+                <marker date="1481605757520" expanded="true" signature="4127:4183" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481605757520" expanded="true" signature="5746:6034" ph="UPDATE TabSi... " />
+                <marker date="1481605757520" expanded="true" signature="8997:9053" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481605757520" expanded="true" signature="10431:10809" ph="INSERT INTO TabSiteUser... " />
+                <marker date="1481605757520" expanded="true" signature="12375:12400" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481605757520" expanded="true" signature="13946:13994" ph="SELECT * FRO... TabSiteUser" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SheetController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Controllers/SheetController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="246" column="40" selection-start-line="246" selection-start-column="40" selection-end-line="246" selection-end-column="40" />
+              <folding>
+                <element signature="e#128#136#0#PHP" expanded="true" />
+                <element signature="e#710#2083#0#PHP" expanded="false" />
+                <element signature="e#2089#9297#0#PHP" expanded="false" />
+                <element signature="e#9303#16730#0#PHP" expanded="false" />
+                <element signature="e#16736#18286#0#PHP" expanded="false" />
+                <element signature="e#18292#20507#0#PHP" expanded="false" />
+                <element signature="e#20513#21651#0#PHP" expanded="false" />
+                <marker date="1481608997536" expanded="true" signature="1392:1448" ph="DELETE FROM " />
+                <marker date="1481608997536" expanded="true" signature="4598:4644" ph="SELECT * FRO... TabSiteSheet" />
+                <marker date="1481608997536" expanded="true" signature="5408:5586" ph="UPDATE TabSi... " />
+                <marker date="1481608997536" expanded="true" signature="6335:6392" ph="DELETE FROM " />
+                <marker date="1481608997536" expanded="true" signature="6949:7005" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481608997536" expanded="true" signature="8149:8651" ph="INSERT INTO TabSiteSheetComposer... " />
+                <marker date="1481608997536" expanded="true" signature="12887:12944" ph="INSERT INTO TabSiteSheet... " />
+                <marker date="1481608997536" expanded="true" signature="12887:13263" ph="INSERT INTO TabSiteSheet... " />
+                <marker date="1481608997536" expanded="true" signature="14143:14199" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481608997536" expanded="true" signature="15555:16093" ph="INSERT INTO TabSiteSheetComposer... " />
+                <marker date="1481608997536" expanded="true" signature="17345:17371" ph="SELECT * FRO... TabSiteSheet" />
+                <marker date="1481608997536" expanded="true" signature="19473:19519" ph="SELECT * FRO... TabSiteSheet" />
+                <marker date="1481608997536" expanded="true" signature="20669:20943" ph="SELECT Compo... TabSiteSheet" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QualityRatingController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Controllers/QualityRatingController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="296" column="74" selection-start-line="296" selection-start-column="74" selection-end-line="296" selection-end-column="74" />
+              <folding>
+                <element signature="e#128#136#0#PHP" expanded="true" />
+                <element signature="e#326#1614#0#PHP" expanded="false" />
+                <element signature="e#1620#4434#0#PHP" expanded="false" />
+                <element signature="e#9959#12222#0#PHP" expanded="false" />
+                <marker date="1481612110935" expanded="true" signature="1003:1075" ph="DELETE FROM " />
+                <marker date="1481612110935" expanded="true" signature="3250:3310" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481612110935" expanded="true" signature="3250:3318" ph="SELECT * FRO... TabSiteQualityRating" />
+                <marker date="1481612110935" expanded="true" signature="3833:3938" ph="UPDATE TabSi... " />
+                <marker date="1481612110935" expanded="true" signature="3833:3946" ph="UPDATE TabSi... " />
+                <marker date="1481612110935" expanded="true" signature="6022:6102" ph="SELECT * FRO... TabSiteQualityRating" />
+                <marker date="1481612110935" expanded="true" signature="6056:6102" ph="DELETE FROM " />
+                <marker date="1481612110935" expanded="true" signature="6875:6915" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481612110935" expanded="true" signature="6875:6923" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481612110935" expanded="true" signature="6875:8128" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481612110935" expanded="true" signature="7496:7547" ph="SELECT * FRO... TabSiteSheet" />
+                <marker date="1481612110935" expanded="true" signature="8147:8275" ph="INSERT INTO TabSiteQualityRating... " />
+                <marker date="1481612110935" expanded="true" signature="9543:9577" ph="SELECT * FRO... TabSiteQualityRating" />
+                <marker date="1481612110935" expanded="true" signature="11512:11574" ph="SELECT * FRO... TabSiteComposer" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DifficultyRatingController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Controllers/DifficultyRatingController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="359" column="35" selection-start-line="359" selection-start-column="35" selection-end-line="359" selection-end-column="35" />
+              <folding>
+                <element signature="e#128#136#0#PHP" expanded="true" />
+                <marker date="1481612110882" expanded="true" signature="1012:1090" ph="DELETE FROM " />
+                <marker date="1481612110882" expanded="true" signature="3275:3349" ph="SELECT * FRO... TabSiteDifficultyRating" />
+                <marker date="1481612110882" expanded="true" signature="3864:3986" ph="UPDATE TabSi... " />
+                <marker date="1481612110882" expanded="true" signature="6126:6209" ph="SELECT * FRO... TabSiteDifficultyRating" />
+                <marker date="1481612110882" expanded="true" signature="6994:7042" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481612110882" expanded="true" signature="7615:7666" ph="SELECT * FRO... TabSiteSheet" />
+                <marker date="1481612110882" expanded="true" signature="8266:8403" ph="INSERT INTO TabSiteDifficultyRating... " />
+                <marker date="1481612110882" expanded="true" signature="9692:9729" ph="SELECT * FRO... TabSiteDifficultyRating" />
+                <marker date="1481612110882" expanded="true" signature="11676:11744" ph="SELECT * FRO... TabSiteDifficultyRating" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DifficultyRating.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/src/Models/DifficultyRating.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,47 +192,24 @@
       <file leaf-file-name="ComposerController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v1/src/Controllers/ComposerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-              <folding>
-                <marker date="1481218102914" expanded="true" signature="956:1018" ph="DELETE FROM " />
-                <marker date="1481218102914" expanded="true" signature="2930:2986" ph="SELECT * FRO... TabSiteComposer" />
-                <marker date="1481218102914" expanded="true" signature="3904:3998" ph="UPDATE TabSi... " />
-                <marker date="1481218102914" expanded="true" signature="5451:5503" ph="SELECT * FRO... TabSiteUser" />
-                <marker date="1481218102914" expanded="true" signature="5451:5507" ph="SELECT * FRO... TabSiteComposer" />
-                <marker date="1481218102914" expanded="true" signature="6257:6382" ph="INSERT INTO TabSiteUser... " />
-                <marker date="1481218102914" expanded="true" signature="7482:7503" ph="SELECT * FRO... TabSiteUser" />
-                <marker date="1481218102914" expanded="true" signature="7482:7511" ph="SELECT * FRO... TabSiteComposer" />
-                <marker date="1481218102914" expanded="true" signature="9209:9259" ph="SELECT * FRO... TabSiteUser" />
-                <marker date="1481218102914" expanded="true" signature="9209:9261" ph="SELECT * FRO... TabSiteComposer" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sheet.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v1/src/Models/Sheet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SheetController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v1/src/Controllers/SheetController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+            <state relative-caret-position="374">
+              <caret line="347" column="1" selection-start-line="347" selection-start-column="1" selection-end-line="347" selection-end-column="1" />
               <folding>
                 <element signature="e#128#136#0#PHP" expanded="true" />
-                <marker date="1481254875032" expanded="true" signature="1036:1092" ph="DELETE FROM " />
-                <marker date="1481254875032" expanded="true" signature="2977:3027" ph="SELECT * FRO... TabSiteSheet" />
-                <marker date="1481254875032" expanded="true" signature="3909:3994" ph="UPDATE TabSi... " />
-                <marker date="1481254875032" expanded="true" signature="5678:5797" ph="INSERT INTO TabSiteSheet... " />
-                <marker date="1481254875032" expanded="true" signature="6864:6890" ph="SELECT * FRO... TabSiteSheet" />
-                <marker date="1481254875032" expanded="true" signature="8507:8553" ph="SELECT * FRO... TabSiteSheet" />
+                <element signature="e#316#1756#0#PHP" expanded="false" />
+                <element signature="e#1762#5001#0#PHP" expanded="false" />
+                <element signature="e#5007#7761#0#PHP" expanded="false" />
+                <element signature="e#7767#9004#0#PHP" expanded="false" />
+                <element signature="e#9010#11350#0#PHP" expanded="false" />
+                <marker date="1481610081953" expanded="true" signature="1087:1149" ph="DELETE FROM " />
+                <marker date="1481610081953" expanded="true" signature="3502:3558" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481610081953" expanded="true" signature="4424:4518" ph="UPDATE TabSi... " />
+                <marker date="1481610081953" expanded="true" signature="6471:6527" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481610081953" expanded="true" signature="6923:6984" ph="INSERT INTO TabSiteComposer... " />
+                <marker date="1481610081953" expanded="true" signature="8421:8442" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481610081953" expanded="true" signature="8421:8450" ph="SELECT * FRO... TabSiteComposer" />
+                <marker date="1481610081953" expanded="true" signature="10580:10630" ph="SELECT * FRO... TabSiteUser" />
+                <marker date="1481610081953" expanded="true" signature="10580:10632" ph="SELECT * FRO... TabSiteComposer" />
               </folding>
             </state>
           </provider>
@@ -246,6 +219,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -258,18 +239,23 @@
         <option value="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/Route.php" />
         <option value="$PROJECT_DIR$/v1/vendor/nikic/fast-route/src/RouteCollector.php" />
         <option value="$PROJECT_DIR$/v1/config.php" />
-        <option value="$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php" />
         <option value="$PROJECT_DIR$/v1/src/Controllers/TokensController.php" />
-        <option value="$PROJECT_DIR$/v1/src/Models/User.php" />
         <option value="$PROJECT_DIR$/v1/src/Models/Token.php" />
         <option value="$PROJECT_DIR$/v1/src/Utilities/functions.php" />
-        <option value="$PROJECT_DIR$/v1/src/Models/Composer.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/Arranger.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/QualityRating.php" />
+        <option value="$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/User.php" />
         <option value="$PROJECT_DIR$/v1/src/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/v1/api.php" />
-        <option value="$PROJECT_DIR$/v1/api.php" />
-        <option value="$PROJECT_DIR$/v1/src/Controllers/ComposerController.php" />
         <option value="$PROJECT_DIR$/v1/src/Models/Sheet.php" />
+        <option value="$PROJECT_DIR$/v1/api.php" />
+        <option value="$PROJECT_DIR$/v1/api.php" />
         <option value="$PROJECT_DIR$/v1/src/Controllers/SheetController.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/Composer.php" />
+        <option value="$PROJECT_DIR$/v1/src/Controllers/ComposerController.php" />
+        <option value="$PROJECT_DIR$/v1/src/Models/DifficultyRating.php" />
+        <option value="$PROJECT_DIR$/v1/src/Controllers/QualityRatingController.php" />
+        <option value="$PROJECT_DIR$/v1/src/Controllers/DifficultyRatingController.php" />
       </list>
     </option>
   </component>
@@ -311,8 +297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -435,6 +419,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,8 +436,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\theds\PhpstormProjects\CS3620_Final\v1\src\Controllers" />
       <recent name="C:\Users\theds\PhpstormProjects\CS3620_Final\v1\src\Models" />
+      <recent name="C:\Users\theds\PhpstormProjects\CS3620_Final\v1\src\Controllers" />
       <recent name="C:\Users\theds\PhpstormProjects\CS_3620_Final\v1\src\Models" />
       <recent name="C:\Users\theds\PhpstormProjects\CS_3620_Final" />
       <recent name="C:\Users\theds\PhpstormProjects\CS_3620_Final\v1\src\Controllers" />
@@ -525,27 +511,44 @@
       <workItem from="1480655877272" duration="76000" />
       <workItem from="1480655968282" duration="2232000" />
       <workItem from="1480995629632" duration="13279000" />
-      <workItem from="1481170367491" duration="21802000" />
+      <workItem from="1481170367491" duration="27870000" />
+      <workItem from="1481323915898" duration="4266000" />
+      <workItem from="1481388663906" duration="57720000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1481256957543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481256957543</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tons of development">
+      <created>1481613673418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481613673418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47139000" />
+    <option name="totallyTimeSpent" value="115193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16384777" sideWeight="0.51666665" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10458911" sideWeight="0.48423126" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16913319" sideWeight="0.52135414" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.025458248" sideWeight="0.47948018" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16384777" sideWeight="0.48333332" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16913319" sideWeight="0.47864583" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -568,56 +571,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Tons of development" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tons of development" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/v1/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
-            <element signature="e#82#104#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Models/Token.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#121#159#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/v1/src/Http/Methods.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -640,7 +605,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
-            <element signature="e#82#104#0#PHP" expanded="true" />
+            <element signature="e#104#126#0#PHP" expanded="true" />
+            <element signature="e#591#694#1#PHP" expanded="false" />
+            <element signature="e#718#822#1#PHP" expanded="false" />
+            <element signature="e#850#944#1#PHP" expanded="false" />
+            <element signature="e#968#1064#1#PHP" expanded="false" />
+            <element signature="e#1091#1189#1#PHP" expanded="false" />
+            <element signature="e#1441#1553#1#PHP" expanded="false" />
+            <element signature="e#1585#1687#1#PHP" expanded="false" />
+            <element signature="e#1715#1814#1#PHP" expanded="false" />
+            <element signature="e#1845#1956#1#PHP" expanded="false" />
+            <element signature="e#3636#4502#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -658,7 +633,7 @@
         <state relative-caret-position="153">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
-            <element signature="e#121#159#0#PHP" expanded="true" />
+            <element signature="e#121#159#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="55" column="38" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,54 +848,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php">
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/Arranger.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v1/src/Http/StatusCodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="43" column="86" selection-start-line="43" selection-start-column="86" selection-end-line="43" selection-end-column="86" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+            <element signature="e#104#126#0#PHP" expanded="true" />
+            <element signature="e#591#694#1#PHP" expanded="false" />
+            <element signature="e#718#822#1#PHP" expanded="false" />
+            <element signature="e#850#944#1#PHP" expanded="false" />
+            <element signature="e#968#1064#1#PHP" expanded="false" />
+            <element signature="e#1091#1189#1#PHP" expanded="false" />
+            <element signature="e#1441#1553#1#PHP" expanded="false" />
+            <element signature="e#1585#1687#1#PHP" expanded="false" />
+            <element signature="e#1715#1814#1#PHP" expanded="false" />
+            <element signature="e#1845#1956#1#PHP" expanded="false" />
+            <element signature="e#3636#4502#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/DatabaseConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v1/src/Models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="357">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <element signature="e#358#804#0#PHP" expanded="false" />
+            <element signature="e#810#1256#0#PHP" expanded="false" />
+            <element signature="e#1262#1326#0#PHP" expanded="false" />
+            <element signature="e#1332#1411#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/Sheet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="47" selection-start-line="26" selection-start-column="16" selection-end-line="33" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/QualityRating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/DifficultyRating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Models/Composer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+          <folding>
+            <element signature="e#128#136#0#PHP" expanded="true" />
+            <element signature="e#308#1803#0#PHP" expanded="false" />
+            <element signature="e#1809#6806#0#PHP" expanded="false" />
+            <element signature="e#6812#11801#0#PHP" expanded="false" />
+            <element signature="e#11807#12765#0#PHP" expanded="false" />
+            <element signature="e#12771#14869#0#PHP" expanded="false" />
+            <marker date="1481605757520" expanded="true" signature="993:1047" ph="DELETE FROM " />
+            <marker date="1481605757520" expanded="true" signature="4127:4183" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481605757520" expanded="true" signature="5746:6034" ph="UPDATE TabSi... " />
+            <marker date="1481605757520" expanded="true" signature="8997:9053" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481605757520" expanded="true" signature="10431:10809" ph="INSERT INTO TabSiteUser... " />
+            <marker date="1481605757520" expanded="true" signature="12375:12400" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481605757520" expanded="true" signature="13946:13994" ph="SELECT * FRO... TabSiteUser" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/SheetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="246" column="40" selection-start-line="246" selection-start-column="40" selection-end-line="246" selection-end-column="40" />
+          <folding>
+            <element signature="e#128#136#0#PHP" expanded="true" />
+            <element signature="e#710#2083#0#PHP" expanded="false" />
+            <element signature="e#2089#9297#0#PHP" expanded="false" />
+            <element signature="e#9303#16730#0#PHP" expanded="false" />
+            <element signature="e#16736#18286#0#PHP" expanded="false" />
+            <element signature="e#18292#20507#0#PHP" expanded="false" />
+            <element signature="e#20513#21651#0#PHP" expanded="false" />
+            <marker date="1481608997536" expanded="true" signature="1392:1448" ph="DELETE FROM " />
+            <marker date="1481608997536" expanded="true" signature="4598:4644" ph="SELECT * FRO... TabSiteSheet" />
+            <marker date="1481608997536" expanded="true" signature="5408:5586" ph="UPDATE TabSi... " />
+            <marker date="1481608997536" expanded="true" signature="6335:6392" ph="DELETE FROM " />
+            <marker date="1481608997536" expanded="true" signature="6949:7005" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481608997536" expanded="true" signature="8149:8651" ph="INSERT INTO TabSiteSheetComposer... " />
+            <marker date="1481608997536" expanded="true" signature="12887:12944" ph="INSERT INTO TabSiteSheet... " />
+            <marker date="1481608997536" expanded="true" signature="12887:13263" ph="INSERT INTO TabSiteSheet... " />
+            <marker date="1481608997536" expanded="true" signature="14143:14199" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481608997536" expanded="true" signature="15555:16093" ph="INSERT INTO TabSiteSheetComposer... " />
+            <marker date="1481608997536" expanded="true" signature="17345:17371" ph="SELECT * FRO... TabSiteSheet" />
+            <marker date="1481608997536" expanded="true" signature="19473:19519" ph="SELECT * FRO... TabSiteSheet" />
+            <marker date="1481608997536" expanded="true" signature="20669:20943" ph="SELECT Compo... TabSiteSheet" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/QualityRatingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="296" column="74" selection-start-line="296" selection-start-column="74" selection-end-line="296" selection-end-column="74" />
+          <folding>
+            <element signature="e#128#136#0#PHP" expanded="true" />
+            <element signature="e#326#1614#0#PHP" expanded="false" />
+            <element signature="e#1620#4434#0#PHP" expanded="false" />
+            <element signature="e#9959#12222#0#PHP" expanded="false" />
+            <marker date="1481612110935" expanded="true" signature="1003:1075" ph="DELETE FROM " />
+            <marker date="1481612110935" expanded="true" signature="3250:3310" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481612110935" expanded="true" signature="3250:3318" ph="SELECT * FRO... TabSiteQualityRating" />
+            <marker date="1481612110935" expanded="true" signature="3833:3938" ph="UPDATE TabSi... " />
+            <marker date="1481612110935" expanded="true" signature="3833:3946" ph="UPDATE TabSi... " />
+            <marker date="1481612110935" expanded="true" signature="6022:6102" ph="SELECT * FRO... TabSiteQualityRating" />
+            <marker date="1481612110935" expanded="true" signature="6056:6102" ph="DELETE FROM " />
+            <marker date="1481612110935" expanded="true" signature="6875:6915" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481612110935" expanded="true" signature="6875:6923" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481612110935" expanded="true" signature="6875:8128" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481612110935" expanded="true" signature="7496:7547" ph="SELECT * FRO... TabSiteSheet" />
+            <marker date="1481612110935" expanded="true" signature="8147:8275" ph="INSERT INTO TabSiteQualityRating... " />
+            <marker date="1481612110935" expanded="true" signature="9543:9577" ph="SELECT * FRO... TabSiteQualityRating" />
+            <marker date="1481612110935" expanded="true" signature="11512:11574" ph="SELECT * FRO... TabSiteComposer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/DifficultyRatingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="359" column="35" selection-start-line="359" selection-start-column="35" selection-end-line="359" selection-end-column="35" />
+          <folding>
+            <element signature="e#128#136#0#PHP" expanded="true" />
+            <marker date="1481612110882" expanded="true" signature="1012:1090" ph="DELETE FROM " />
+            <marker date="1481612110882" expanded="true" signature="3275:3349" ph="SELECT * FRO... TabSiteDifficultyRating" />
+            <marker date="1481612110882" expanded="true" signature="3864:3986" ph="UPDATE TabSi... " />
+            <marker date="1481612110882" expanded="true" signature="6126:6209" ph="SELECT * FRO... TabSiteDifficultyRating" />
+            <marker date="1481612110882" expanded="true" signature="6994:7042" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481612110882" expanded="true" signature="7615:7666" ph="SELECT * FRO... TabSiteSheet" />
+            <marker date="1481612110882" expanded="true" signature="8266:8403" ph="INSERT INTO TabSiteDifficultyRating... " />
+            <marker date="1481612110882" expanded="true" signature="9692:9729" ph="SELECT * FRO... TabSiteDifficultyRating" />
+            <marker date="1481612110882" expanded="true" signature="11676:11744" ph="SELECT * FRO... TabSiteDifficultyRating" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/ComposerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="347" column="1" selection-start-line="347" selection-start-column="1" selection-end-line="347" selection-end-column="1" />
+          <folding>
+            <element signature="e#128#136#0#PHP" expanded="true" />
+            <element signature="e#316#1756#0#PHP" expanded="false" />
+            <element signature="e#1762#5001#0#PHP" expanded="false" />
+            <element signature="e#5007#7761#0#PHP" expanded="false" />
+            <element signature="e#7767#9004#0#PHP" expanded="false" />
+            <element signature="e#9010#11350#0#PHP" expanded="false" />
+            <marker date="1481610081953" expanded="true" signature="1087:1149" ph="DELETE FROM " />
+            <marker date="1481610081953" expanded="true" signature="3502:3558" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481610081953" expanded="true" signature="4424:4518" ph="UPDATE TabSi... " />
+            <marker date="1481610081953" expanded="true" signature="6471:6527" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481610081953" expanded="true" signature="6923:6984" ph="INSERT INTO TabSiteComposer... " />
+            <marker date="1481610081953" expanded="true" signature="8421:8442" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481610081953" expanded="true" signature="8421:8450" ph="SELECT * FRO... TabSiteComposer" />
+            <marker date="1481610081953" expanded="true" signature="10580:10630" ph="SELECT * FRO... TabSiteUser" />
+            <marker date="1481610081953" expanded="true" signature="10580:10632" ph="SELECT * FRO... TabSiteComposer" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v1/src/Models/Token.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="323">
           <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
-            <element signature="e#121#159#0#PHP" expanded="true" />
+            <element signature="e#838#1890#0#PHP" expanded="false" />
+            <element signature="e#1896#2641#0#PHP" expanded="false" />
+            <element signature="e#2647#2916#0#PHP" expanded="false" />
+            <element signature="e#2922#3199#0#PHP" expanded="false" />
+            <element signature="e#3205#3753#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v1/src/Controllers/TokensController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
+        <state relative-caret-position="1003">
           <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
-            <element signature="e#130#160#0#PHP" expanded="true" />
             <marker date="1481040319805" expanded="true" signature="602:627" ph="SELECT * FRO... TabSiteUser" />
             <marker date="1481040319805" expanded="true" signature="602:658" ph="SELECT * FRO... TabSiteUser" />
             <marker date="1481040319805" expanded="true" signature="602:1419" ph="SELECT * FRO... TabSiteUser" />
@@ -935,83 +1086,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Models/Composer.php">
+    <entry file="file://$PROJECT_DIR$/v1/src/Utilities/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
-            <element signature="e#82#104#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="374" column="25" selection-start-line="374" selection-start-column="25" selection-end-line="374" selection-end-column="25" />
-          <folding>
-            <element signature="e#128#136#0#PHP" expanded="true" />
-            <marker date="1481217742240" expanded="true" signature="940:994" ph="DELETE FROM " />
-            <marker date="1481217742240" expanded="true" signature="3358:3414" ph="SELECT * FRO... TabSiteUser" />
-            <marker date="1481217742240" expanded="true" signature="5484:5772" ph="UPDATE TabSi... " />
-            <marker date="1481217742240" expanded="true" signature="8069:8125" ph="SELECT * FRO... TabSiteUser" />
-            <marker date="1481217742240" expanded="true" signature="8069:11562" ph="SELECT * FRO... TabSiteUser" />
-            <marker date="1481217742240" expanded="true" signature="10044:10422" ph="INSERT INTO TabSiteUser... " />
-            <marker date="1481217742240" expanded="true" signature="11999:12024" ph="SELECT * FRO... TabSiteUser" />
-            <marker date="1481217742240" expanded="true" signature="13822:13870" ph="SELECT * FRO... TabSiteUser" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/ComposerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <marker date="1481218102914" expanded="true" signature="956:1018" ph="DELETE FROM " />
-            <marker date="1481218102914" expanded="true" signature="2930:2986" ph="SELECT * FRO... TabSiteComposer" />
-            <marker date="1481218102914" expanded="true" signature="3904:3998" ph="UPDATE TabSi... " />
-            <marker date="1481218102914" expanded="true" signature="5451:5503" ph="SELECT * FRO... TabSiteUser" />
-            <marker date="1481218102914" expanded="true" signature="5451:5507" ph="SELECT * FRO... TabSiteComposer" />
-            <marker date="1481218102914" expanded="true" signature="6257:6382" ph="INSERT INTO TabSiteUser... " />
-            <marker date="1481218102914" expanded="true" signature="7482:7503" ph="SELECT * FRO... TabSiteUser" />
-            <marker date="1481218102914" expanded="true" signature="7482:7511" ph="SELECT * FRO... TabSiteComposer" />
-            <marker date="1481218102914" expanded="true" signature="9209:9259" ph="SELECT * FRO... TabSiteUser" />
-            <marker date="1481218102914" expanded="true" signature="9209:9261" ph="SELECT * FRO... TabSiteComposer" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Models/Sheet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/src/Controllers/SheetController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
-          <folding>
-            <element signature="e#128#136#0#PHP" expanded="true" />
-            <marker date="1481254875032" expanded="true" signature="1036:1092" ph="DELETE FROM " />
-            <marker date="1481254875032" expanded="true" signature="2977:3027" ph="SELECT * FRO... TabSiteSheet" />
-            <marker date="1481254875032" expanded="true" signature="3909:3994" ph="UPDATE TabSi... " />
-            <marker date="1481254875032" expanded="true" signature="5678:5797" ph="INSERT INTO TabSiteSheet... " />
-            <marker date="1481254875032" expanded="true" signature="6864:6890" ph="SELECT * FRO... TabSiteSheet" />
-            <marker date="1481254875032" expanded="true" signature="8507:8553" ph="SELECT * FRO... TabSiteSheet" />
-          </folding>
         </state>
       </provider>
     </entry>
